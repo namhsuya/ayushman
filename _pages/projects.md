@@ -21,9 +21,14 @@ nav: true
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+          <h2 class="card-title">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
+            {% if project.download %}
+                <div class="icon" data-toggle="tooltip" title="Download">
+                  <a href="{{ project.download }}" target="_blank"><i class="fa fa-link"></i>&nbsp;&nbsp;</a>
+                </div>
+            {% endif %}
             {% if project.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">

@@ -2,22 +2,24 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: # Biotech Graduate | Bioinformatics Enthusiast | AI/ML Beginner
+# <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  image: passport.jpg
+  address: > 
+    <p style="font-size:14px;">🧬 Jr Computational Biologist @ Bencos </p>
+  
 news: true
 social: true
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a junior computational biologist at [Bencos Research Solutions](http://bencoslife.com/)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I completed my undergraduate studies in biotechnology at Amity University, Kolkata in 2020, the year of the coronavirus pandemic. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I worked under [Dr Chittabrata Mal](https://in.linkedin.com/in/dr-chittabrata-mal-b5600217) in studying and developing a network analysis based methodology to identify functional miRNA clusters responsible for regulation of rice metabolic pathways. With an academic background in life sciences and my inherent interest in IT, I am constantly working towards creating a right mix of both these domains to observe, examine and possibly solve biological problems.
+
+Presently, my major focus at work is to deal with `NGS` data analysis work which mostly revolves around `RNA-Seq` and `Metagenomic` data. I am also interested in clinical applications of `deep learning`.
